@@ -1,0 +1,26 @@
+.tabs {
+  display: flex;
+  align-items: center;
+
+  &__item {
+    display: flex;
+    padding: 4px 10px;
+    border: 1px solid #333333;
+    background-color: #ffffff;
+    cursor: pointer;
+    transition: 0.2s linear;
+
+    &:first-child {
+      border-radius: 3px 0 0 3px;
+    }
+    &:last-child {
+      border-radius: 0 3px 3px 0;
+    }
+
+    &.active {
+      border: 1px solid #2965ff;
+      background-color: #2965ff;
+      color: #ffffff;
+    }
+  }
+}

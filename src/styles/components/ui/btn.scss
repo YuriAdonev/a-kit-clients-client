@@ -1,0 +1,22 @@
+.btn {
+  cursor: pointer;
+  font-weight: 600;
+  height: 32px;
+  padding: 0 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  font-size: 14px;
+  font-family: inherit;
+  border: 1px solid #2965ff;
+
+  &--ghost {
+    background-color: #fff;
+    color: #2965ff;
+  }
+  &--primary {
+    background-color: #2965ff;
+    color: #fff;
+  }
+}

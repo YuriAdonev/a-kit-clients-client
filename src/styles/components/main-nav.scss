@@ -1,0 +1,137 @@
+.main-nav {
+  position: fixed;
+  top: 50px;
+  left: 0;
+  bottom: 0;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  width: 160px;
+  border-top: 1px solid #414141;
+
+  color: #fff;
+  background-color: #212121;
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  &__footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    //padding-bottom: 10px;
+  }
+  &__logout {
+    &.main-nav-item {
+      cursor: pointer;
+
+      span {
+        top: 3px;
+      }
+    }
+  }
+}
+
+.main-nav-item {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 48px;
+  padding: 0 10px;
+  //background-color: #212121;
+  background: linear-gradient(to right, rgba(#212121, 1), rgba(#212121, 1));
+  transition: 0.1s linear;
+
+  &:hover {
+    background: linear-gradient(to right, rgba(#333333, 1) 0px, rgba(#333333, 0) 120px);
+  }
+  &.active {
+    background: linear-gradient(to right, rgba(#313131, 1), rgba(#313131, 1));
+    svg {
+      stroke: #2965ff;
+    }
+  }
+
+  svg {
+    flex-shrink: 0;
+    stroke: #ffffff;
+    display: block;
+    transition: 0.1s linear;
+  }
+
+  span {
+    margin-left: 6px;
+    //position: absolute;
+    //top: 7px;
+    //left: 54px;
+    //display: none;
+    //align-items: center;
+    //height: 34px;
+    //padding: 0 10px 2px;
+    //background-color: #424242;
+    //border-radius: 4px;
+    //&:before {
+    //  content: '';
+    //  display: block;
+    //  position: absolute;
+    //  top: 12px;
+    //  left: -5px;
+    //
+    //  border-right: 5px solid #424242;
+    //  border-left: none;
+    //  border-bottom: 5px solid transparent;
+    //  border-top: 5px solid transparent;
+    //}
+  }
+  &--inner {
+    padding-left: 22px;
+    padding-right: 5px;
+    font-size: 14px;
+    &:before {
+      content: '';
+      display: flex;
+      align-self: flex-start;
+      width: 6px;
+      height: 24px;
+      background-color: transparent;
+      border: 1px solid #ffffff;
+      border-top: none;
+      border-right: none;
+      margin-right: 4px;
+    }
+    span {
+      position: relative;
+      flex-grow: 1;
+      overflow: hidden;
+      white-space: nowrap;
+      &:after {
+        content: '';
+        display: block;
+        width: 15px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(to right, rgba(#212121, 0), rgba(#212121, 1));
+        transition: 0.1s linear;
+      }
+    }
+    &.active {
+      span {
+        &:after {
+          background: linear-gradient(to right, rgba(#313131, 0), rgba(#313131, 1));
+          //transition: 0.1s linear;
+        }
+      }
+    }
+    //&:hover {
+    //  span {
+    //    &:after {
+    //      background: linear-gradient(to right, rgba(#333333, 0), rgba(#333333, 1));
+    //      transition: 0.2s linear;
+    //    }
+    //  }
+    //}
+  }
+}

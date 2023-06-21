@@ -1,0 +1,36 @@
+.active-panel {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  font-size: 14px;
+  color: #ffffff;
+  padding: 5px 15px 5px 175px;
+  background-color: #2965ff;
+  transform: translateY(60px);
+  transition: 0.3s linear;
+
+  &.show {
+    transform: translateY(0);
+    transition: 0.3s linear;
+  }
+
+  button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    color: #ffffff;
+    background-color: #2965ff;
+    font-size: 14px;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    &:hover {
+      background-color: #fff;
+      color: #2965ff;
+    }
+  }
+}

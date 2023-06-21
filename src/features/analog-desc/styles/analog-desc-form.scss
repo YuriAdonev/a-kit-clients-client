@@ -1,0 +1,33 @@
+.analog-desc-form {
+  width: 350px;
+  max-height: 100%;
+  padding: 20px;
+  overflow-y: auto;
+  flex-shrink: 0;
+  &__row {
+    &:not(:last-child) {
+      padding-bottom: 10px;
+      border-bottom: 1px solid #333333;
+    }
+    &:not(:first-child) {
+      padding-top: 10px;
+    }
+  }
+  &__title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 6px;
+  }
+  &__name {
+    font-size: 14px;
+  }
+  &__item {
+    margin-top: 4px;
+  }
+  &__value {
+    p {
+      display: flex;
+      justify-content: flex-start;
+    }
+  }
+}

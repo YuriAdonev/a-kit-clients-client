@@ -1,0 +1,17 @@
+.compilation-list-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  &__name {
+    width: 300px;
+  }
+  &__date {
+    width: 120px;
+  }
+  &__author {
+    width: 200px;
+  }
+  &:not(:last-child) {
+    margin-bottom: 15px;
+  }
+}

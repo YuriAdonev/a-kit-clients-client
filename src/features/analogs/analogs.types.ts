@@ -1,0 +1,11 @@
+// -------------------- ANALOGS --------------------
+export const ANALOGS_SET_IS_LOADING = 'analogs/setIsLoading'
+export const ANALOGS_SET_ERROR_MESSAGE = 'analogs/setErrorMessage'
+export const ANALOGS_SET_LIST = 'analogs/setList'
+export const ANALOGS_SET_COUNT = 'analogs/setCount'
+export const ANALOGS_SET_CURRENT_PAGE = 'analogs/setCurrentPage'
+export const ANALOGS_ADD_TO_SELECTED_LIST = 'analogs/addToSelectedList'
+export const ANALOGS_SET_SELECTED_LIST = 'analogs/setSelectedList'
+export const ANALOGS_GET_LIST_START = 'analogs/getListStart'
+export const ANALOGS_GET_LIST_SUCCESS = 'analogs/getListSuccess'
+export const ANALOGS_GET_LIST_FAIL = 'analogs/getListFail'

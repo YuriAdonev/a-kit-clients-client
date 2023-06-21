@@ -1,0 +1,25 @@
+.radio {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  &:before {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid #111111;
+    background-color: #fff;
+    transition: 0.2s linear;
+  }
+  span {
+    display: block;
+    margin-left: 6px;
+  }
+  &.active {
+    &:before {
+      border-color: #2965ff;
+      background-color: #2965ff;
+    }
+  }
+}

@@ -1,0 +1,34 @@
+.analog-desc-modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 100px 0;
+  background-color: rgba(0,0,0,0.8);
+
+  &__wrap {
+    display: flex;
+    width: 1000px;
+    max-height: 100%;
+    background-color: #fff;
+  }
+
+  &__text {
+    flex-grow: 1;
+    padding: 20px 0 20px 20px;
+    max-height: 100%;
+    overflow-y: auto;
+  }
+  &__loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 260px;
+  }
+}
