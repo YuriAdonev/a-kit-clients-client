@@ -81,7 +81,7 @@ export const AnalogsForm: FC = () => {
         <div className="analogs-form__row">
           <div className="analogs-form__item">
             <p>Тип объявления:</p>
-            <select onChange={changePurpose} value={type}>
+            <select onChange={changeOfferType} value={type}>
               <option value="Продажа">Продажа</option>
               <option value="Аренда">Аренда</option>
               <option value="">Все</option>

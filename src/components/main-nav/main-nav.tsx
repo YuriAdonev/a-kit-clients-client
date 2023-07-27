@@ -53,16 +53,15 @@ export const MainNav: FC = () => {
         {/*  )*/}
         {/*  : null*/}
         {/*}*/}
-        {user?.subscriptions.valuations
-          ? <NavLink
-              className={({ isActive }) => `main-nav-item${ isActive ? ' active' : '' }`}
-              to="/reports"
-            >
-              <IconBag />
-              <span>Отчеты</span>
-            </NavLink>
-          : null
-        }
+        {/* {user?.subscriptions.valuations && ( */}
+          <NavLink
+            className={({ isActive }) => `main-nav-item${ isActive ? ' active' : '' }`}
+            to="/reports"
+          >
+            <IconBag />
+            <span>Отчеты</span>
+          </NavLink>
+        {/* )} */}
       </div>
       <div className="main-nav__footer">
         <div

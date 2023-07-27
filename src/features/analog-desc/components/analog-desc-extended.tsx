@@ -239,7 +239,7 @@ export const AnalogDescExtended: FC = () => {
                       }
                     </div>
                   </div>
-                  <div className="analog-desc-extended__item">
+                  {/* <div className="analog-desc-extended__item">
                     <div className="analog-desc-extended__name">Похожие</div>
                     <div className="analog-desc-extended__value">
                       {cadastralNumber.suitable !== null && cadastralNumber.suitable.length > 0
@@ -247,7 +247,7 @@ export const AnalogDescExtended: FC = () => {
                         : 'Не заполнено'
                       }
                     </div>
-                  </div>
+                  </div> */}
                 </>
               )
             }

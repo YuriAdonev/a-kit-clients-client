@@ -1,5 +1,5 @@
 import { FC } from 'react'
-import {Reports} from "../features-old/reports/reports";
+import {Reports} from "../features/reports/reports";
 
 export const ReportsPage: FC = () => {
   return (

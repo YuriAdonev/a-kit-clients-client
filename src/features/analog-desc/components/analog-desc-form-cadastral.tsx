@@ -11,6 +11,8 @@ export const AnalogDescFormCadastral: FC = () => {
   const dispatch = useDispatch()
   const [current, setCurrent] = useState(cadastralNumber.current)
 
+  console.log('cadastralNumber', cadastralNumber)
+
   const saveFormData = (): void => {
     dispatch(saveAnalogDescForm({
       cadastralNumber: {

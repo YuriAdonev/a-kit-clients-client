@@ -59,7 +59,7 @@ export const Analog: FC<PropsTypes> = ({ isSelected, item, onSelectItem, isInCom
             }
           </span>
           <a
-            href={`https://storage.yandexcloud.net/appraiser-kit/screenshots/${item.screenshot}`}
+            href={`https://storage.yandexcloud.net/appraiser-kit/${item.screenshot}`}
             className="analog__screenshot"
             target="_blank"
             rel="noreferrer"
