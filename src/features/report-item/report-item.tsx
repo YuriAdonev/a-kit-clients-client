@@ -6,41 +6,187 @@ export const ReportItem = () => {
 
   return (
     <div>
-      Страница {isCreate && 'создания '}отчета
+      Страница {isCreate && 'создания '}отчета1
       <div>
-      Субъект права
-ОГРН
-дата государственной регистрации
-
+        <div className="field-item">
+          <div className="field-item__label">Субъект права</div>
+          <div className="field-item__wrap">
+            <input type="text" />
+          </div>
+        </div>
+        <div className="field-item">
+          <div className="field-item__label">ОГРН</div>
+          <div className="field-item__wrap">
+            <input type="text" />
+          </div>
+        </div>
+        <div className="field-item">
+          <div className="field-item__label">Дата государственной регистрации</div>
+          <div className="field-item__wrap">
+            <input type="text" />
+          </div>
+        </div>
+        <div className="field-item">
+          <div className="field-item__label">Вид права</div>
+          <div className="field-item__wrap">
+            <input type="text" />
+          </div>
+        </div>
+        <div className="field-item">
+          <div className="field-item__label">Объект права</div>
+          <div className="field-item__wrap">
+            <input type="text" />
+          </div>
+        </div>
+        <div className="field-item">
+          <div className="field-item__label">Адрес (местоположение)</div>
+          <div className="field-item__wrap">
+            <input type="text" />
+          </div>
+        </div>
+        <div className="field-item">
+          <div className="field-item__label">Кадастровый номер</div>
+          <div className="field-item__wrap">
+            <input type="text" />
+          </div>
+        </div>
+        <div>Количественные и качественные характеристики объекта оценки</div>
+        <div className="field-item">
+          <div className="field-item__label">Площадь: общая, м²</div>
+          <div className="field-item__wrap">
+            <input type="text" />
+          </div>
+        </div>
+        <div className="field-item">
+          <div className="field-item__label">Этажность</div>
+          <div className="field-item__wrap">
+            <input type="text" />
+          </div>
+        </div>
+        <div className="field-item">
+          <div className="field-item__label">Подземная этажность</div>
+          <div className="field-item__wrap">
+            <input type="text" />
+          </div>
+        </div>
+        <div className="field-item">
+          <div className="field-item__label">Кадастровый номер</div>
+          <div className="field-item__wrap">
+            <input type="text" />
+          </div>
+        </div>
+        <div className="field-item">
+          <div className="field-item__label">Право</div>
+          <div className="field-item__wrap">
+            <input type="text" />
+          </div>
+        </div>
+        <div className="field-item">
+          <div className="field-item__label">Ограничение</div>
+          <div className="field-item__wrap">
+            <textarea />
+          </div>
+        </div>
+        <div className="field-item">
+          <div className="field-item__label">Кадастровая стоимость, руб</div>
+          <div className="field-item__wrap">
+            <input type="text" />
+          </div>
+        </div>
+        <div className="field-item">
+          <div className="field-item__label">Арендуемая площадь (суммарно), м²</div>
+          <div className="field-item__wrap">
+            <input type="text" />
+          </div>
+        </div>
+        <div className="field-item">
+          <div className="field-item__label">Арендная плата (суммарно), руб/мес.</div>
+          <div className="field-item__wrap">
+            <input type="text" />
+          </div>
+        </div>
+        <div className="field-item">
+          <div className="field-item__label">Оплата коммунальных расходов</div>
+          <div className="field-item__wrap">
+            <input type="text" />
+          </div>
+        </div>
+        <div className="field-item">
+          <div className="field-item__label">Литер</div>
+          <div className="field-item__wrap">
+            <input type="text" />
+          </div>
+        </div>
+        <div className="field-item">
+          <div className="field-item__label">Год постройки</div>
+          <div className="field-item__wrap">
+            <input type="text" />
+          </div>
+        </div>
+        <div className="field-item">
+          <div className="field-item__label">Этаж/Этажность</div>
+          <div className="field-item__wrap">
+            <input type="text" />
+          </div>
+        </div>
+        <div className="field-item">
+          <div className="field-item__label">Износ, %</div>
+          <div className="field-item__wrap">
+            <input type="text" />
+          </div>
+        </div>
+        <div className="field-item">
+          <div className="field-item__label">Площадь подвала, м²</div>
+          <div className="field-item__wrap">
+            <input type="text" />
+          </div>
+        </div>
+        <div className="field-item">
+          <div className="field-item__label">Площадь 1-го этажа, м²</div>
+          <div className="field-item__wrap">
+            <input type="text" />
+          </div>
+        </div>
+        <div className="field-item">
+          <div className="field-item__label">Площадь 2-го и выше этажей, м²</div>
+          <div className="field-item__wrap">
+            <input type="text" />
+          </div>
+        </div>
+        <div className="field-item">
+          <div className="field-item__label">Выявленные несогласованные перепланировки/переустройства</div>
+          <div className="field-item__wrap">
+            <input type="text" />
+          </div>
+        </div>
+        <div className="field-item">
+          <div className="field-item__label"></div>
+          <div className="field-item__wrap">
+            <input type="text" />
+          </div>
+        </div>
+        <div className="field-item">
+          <div className="field-item__label">Общая характеристика состояния объекта</div>
+          <div className="field-item__wrap">
+            <input type="text" />
+          </div>
+        </div>
+        <div className="field-item">
+          <div className="field-item__label">Текущее использование / назначение помещений объекта</div>
+          <div className="field-item__wrap">
+            <input type="text" />
+          </div>
+        </div>
+        <div className="field-item">
+          <div className="field-item__label">Балансовая (остаточная) стоимость, руб</div>
+          <div className="field-item__wrap">
+            <input type="text" />
+          </div>
+        </div>
       </div>
-      <div>Вид права</div>
+      
       <div>
-      Объект права	Здание магазина с пристроем, назначение: нежилое	
-Адрес (местоположение)	Россия, Алтайский кр., г. Барнаул, пр-кт Космонавтов, д. 33	
-Кадастровый номер	22:63:020309:26	
-Количественные и качественные характеристики объекта оценки		
-Площадь: общая, м²	2555	
-Этажность	4	
-Подземная этажность	1	
-Кадастровый номер	22:63:020309:26	
-Право	Собственность № 22-22-01/135/2012-213 от 19.04.2012	
-Ограничение	"Аренда № 22-22-01/035/2012-372 от 09.04.2012
-Ипотека № 22:63:020309:26-22/001/2020-23 от 18.03.2020
-Ипотека № 22:63:020309:26-22/001/2019-20 от 21.02.2019
-№ 22:63:020309:26-22/111/2021-26 отсутствует
-Аренда № 22:63:020309:26-22/111/2021-25 от 19.04.2021"	
-Кадастровая стоимость, руб	34 069 000,00	
-Арендуемая площадь (суммарно), м²	1 147,02	
-Арендная плата (суммарно), руб/мес.	359 710,30	
-Оплата коммунальных расходов	Возложена на арендатора (перевыставление расходов пропорционально занятой площади)	
-Литер	АА1	
-Год постройки	1959-1980	
-Этаж/Этажность	подвал,1,2,3/3	
-Износ, %	25-27	
-Площадь подвала, м²	659	
-Площадь 1-го этажа, м²	765,4	
-Площадь 2-го и выше этажей, м²	1130,6	
-Выявленные несогласованные перепланировки/переустройства	Перепланировки, не отраженные в технической документации, отсутствуют	
+
 Конструктивные элементы	Материал	Признаки износа
 Стены	кирпич, керамогранит (частично)	отдельные повреждения, трещины в кладке
 Перекрытия	железобетонные	нет видимых признаков износа
@@ -48,9 +194,7 @@ export const ReportItem = () => {
 Полы	плитка, линолеум, бетонный	
 Отделка	покраска, кафель, потолки "Армстронг"	отдельные повреждения и загрязнения
 Коммуникации	электричество, водоснабжение, канализация, отопление, вентиляция	в рабочем состоянии
-Общая характеристика состояния объекта		хорошее
-Текущее использование / назначение помещений объекта		торгово-офисные (с бытовыми, складскими и подсобными)
-Балансовая (остаточная) стоимость, руб		9 618 502,48
+
 
       </div>
       <div>

@@ -1,4 +1,5 @@
 import React, {FC} from 'react'
+import { Link } from 'react-router-dom'
 
 export const Reports: FC = () => {
   return (
@@ -6,7 +7,7 @@ export const Reports: FC = () => {
       <div className="page-header">
         <h1>Отчеты</h1>
         <div className="page-header__actions">
-          <button>Создать</button>
+          <Link to="/report/new">Создать</Link>
         </div>
       </div>
       <ul className="report-list">
